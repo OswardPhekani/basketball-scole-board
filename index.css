@@ -1,0 +1,101 @@
+@font-face{
+    font-family: cursed-font;
+    src: url(cursed-font/CursedTimerUlil-Aznm.ttf);
+    font-weight: bold;
+}
+body {
+    margin: 0;
+}
+
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    line-height: 35.9px;
+    margin: 0 auto 21px auto;
+    color: aliceblue;
+}
+.container {
+    display: flex;
+    margin: 30px auto 0px auto;
+    justify-content:space-evenly;
+    background-color: #1B244A;
+    height: 385px;
+    width: 575px;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+}
+.home-team{
+    color: aliceblue;
+    text-align: center;
+}
+.score-card{
+    font-family: cursed-font;
+    background-color: #080001;
+    height: 120px;
+    width: 155px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.score-font{
+    display: flex;
+    font-family: cursed-font;
+    font-size: 100px;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    padding-top: 5px;
+    color: #F94F6D;
+    }
+    .team-name{
+       /* padding-top: 10px; */
+       margin: 0 auto;
+        text-align: center;
+        font-family: verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        color: #9AABD8;
+    }
+.buttons-spacing{
+    font-family: cursed-font;
+    width: 45px;
+    height: 45px;
+    background-color: #1B244A;
+    border: solid #9AABD8 2px;
+    color: #9AABD8;
+    border-radius: 5px;
+}
+.score-buttons{
+    margin:22px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    
+}
+.guest-team{
+     color: aliceblue;
+    text-align: center
+}
+
+.reset-board{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    border: solid #1B244A 2px;
+    width: 572px;
+    background-color: #1B244A;
+
+     border-radius: 0px 0px 10px 10px;
+}
+.reset-button{
+    display: flex;
+    justify-content: center;
+    margin:0 auto 10px auto;
+    border: solid #9AABD8 2px;
+    width: auto;
+    background-color: #1B244A;
+    font-family: cursed-font;
+    baclkground-color: #1B244A;
+    color: #9AABD8;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}

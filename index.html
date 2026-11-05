@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-team">
+                    <h3>HOME</h3>
+                    <div class="score-card" >
+                        <span class="score-font" id="home-score">0</span>
+                    </div>
+                    <span class="team-name"> Scrimba</span>
+                    <div class="score-buttons">
+                        <button class="buttons-spacing" onclick="addHomePlus1()"> +1</button>
+                        <button class="buttons-spacing" onclick="addHomePlus2()"> +2</button>
+                        <button class="buttons-spacing" onclick="addHomePlus3()"> +3</button>
+                    </div>
+                </div>
+                <div >
+                    <h3>VS</h3>
+
+                </div>
+            <div class="guest-team">
+                <h3>GUEST</h3>
+                <div class="score-card" >
+                        <span class="score-font" id="guest-score">0</span>
+                    </div>
+                    <span class="team-name"> Mimo</span>
+                    <div class="score-buttons">
+                        <button class="buttons-spacing" onclick="addGuestPlus1()"> +1</button>
+                        <button class="buttons-spacing" onclick="addGuestPlus2()"> +2</button>
+                        <button class="buttons-spacing" onclick="addGuestPlus3()"> +3</button>
+                    </div>
+                </div>
+
+        </div>
+        <div class="reset-board">
+            <button class="reset-button" onclick="resetBoard()"> RESET BOARD</button>
+            
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
